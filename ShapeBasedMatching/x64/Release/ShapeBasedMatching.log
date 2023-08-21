@@ -1,0 +1,30 @@
+﻿  test.cpp
+C:\Users\lifuw\Desktop\Projects\template_matching\CPPConsole 2020230626\CPPConsole\ShapeBasedMatching\test.cpp(248,23): warning C4244: 'initializing': conversion from '_Tp' to 'float', possible loss of data
+          with
+          [
+              _Tp=double
+          ]
+C:\Users\lifuw\Desktop\Projects\template_matching\CPPConsole 2020230626\CPPConsole\ShapeBasedMatching\test.cpp(389,73): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\lifuw\Desktop\Projects\template_matching\CPPConsole 2020230626\CPPConsole\ShapeBasedMatching\test.cpp(393,42): warning C4244: 'argument': conversion from 'float' to '_Tp', possible loss of data
+          with
+          [
+              _Tp=int
+          ]
+C:\Users\lifuw\Desktop\Projects\template_matching\CPPConsole 2020230626\CPPConsole\ShapeBasedMatching\test.cpp(511,78): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(242,61): warning C4244: 'initializing': conversion from '_Ty' to '_Ty2', possible loss of data
+          with
+          [
+              _Ty=unsigned __int64
+          ]
+          and
+          [
+              _Ty2=int
+          ]
+C:\Users\lifuw\Desktop\Projects\template_matching\CPPConsole 2020230626\CPPConsole\ShapeBasedMatching\test.cpp(52): message : see reference to function template instantiation 'std::pair<float,int>::pair<float,unsigned __int64,0>(std::pair<float,unsigned __int64> &&) noexcept' being compiled
+C:\Users\lifuw\Desktop\Projects\template_matching\CPPConsole 2020230626\CPPConsole\ShapeBasedMatching\test.cpp(52): message : see reference to function template instantiation 'std::pair<float,int>::pair<float,unsigned __int64,0>(std::pair<float,unsigned __int64> &&) noexcept' being compiled
+  Generating code
+  1 of 1484 functions (<0.1%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  ShapeBasedMatching.vcxproj -> C:\Users\lifuw\Desktop\Projects\template_matching\CPPConsole 2020230626\CPPConsole\x64\Release\ShapeBasedMatching.exe

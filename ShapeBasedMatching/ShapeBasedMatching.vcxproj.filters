@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="MIPP">
+      <UniqueIdentifier>{dc2a989d-15be-4bd3-8ef5-c49fd0173cc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MIPP\math">
+      <UniqueIdentifier>{4ee7fb52-6d17-46b9-817b-a492cab6f96e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="line2Dup.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="test.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="line2Dup.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MIPP\mipp.h">
+      <Filter>MIPP</Filter>
+    </ClInclude>
+    <ClInclude Include="MIPP\mipp_impl_AVX.hxx">
+      <Filter>MIPP</Filter>
+    </ClInclude>
+    <ClInclude Include="MIPP\mipp_impl_AVX512.hxx">
+      <Filter>MIPP</Filter>
+    </ClInclude>
+    <ClInclude Include="MIPP\mipp_impl_NEON.hxx">
+      <Filter>MIPP</Filter>
+    </ClInclude>
+    <ClInclude Include="MIPP\mipp_impl_SSE.hxx">
+      <Filter>MIPP</Filter>
+    </ClInclude>
+    <ClInclude Include="MIPP\mipp_object.hxx">
+      <Filter>MIPP</Filter>
+    </ClInclude>
+    <ClInclude Include="MIPP\mipp_scalar_op.h">
+      <Filter>MIPP</Filter>
+    </ClInclude>
+    <ClInclude Include="MIPP\mipp_scalar_op.hxx">
+      <Filter>MIPP</Filter>
+    </ClInclude>
+    <ClInclude Include="MIPP\math\avx_mathfun.h">
+      <Filter>MIPP\math</Filter>
+    </ClInclude>
+    <ClInclude Include="MIPP\math\avx_mathfun.hxx">
+      <Filter>MIPP\math</Filter>
+    </ClInclude>
+    <ClInclude Include="MIPP\math\avx512_mathfun.h">
+      <Filter>MIPP\math</Filter>
+    </ClInclude>
+    <ClInclude Include="MIPP\math\avx512_mathfun.hxx">
+      <Filter>MIPP\math</Filter>
+    </ClInclude>
+    <ClInclude Include="MIPP\math\neon_mathfun.h">
+      <Filter>MIPP\math</Filter>
+    </ClInclude>
+    <ClInclude Include="MIPP\math\neon_mathfun.hxx">
+      <Filter>MIPP\math</Filter>
+    </ClInclude>
+    <ClInclude Include="MIPP\math\sse_mathfun.h">
+      <Filter>MIPP\math</Filter>
+    </ClInclude>
+    <ClInclude Include="MIPP\math\sse_mathfun.hxx">
+      <Filter>MIPP\math</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
